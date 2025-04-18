@@ -1,5 +1,5 @@
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
-from config import AUTH_CHANNELS, ADMIN
+from config import AUTH_CHANNELS, ADMINS
 from pyrogram.errors import RPCError
 
 
