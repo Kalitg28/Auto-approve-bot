@@ -43,8 +43,8 @@ async def get_fsub(client, message):
     await message.reply(
         f"{message.from_user.mention}, To use the bot, you must join our channel first."
         "The bot will not process any requests without joining.\n\n"
-        "बॉट का उपयोग करने के लिए आपको पहले हमारे चैनल में Join होना होगा। "
-        "बॉट बिना शामिल हुए किसी भी Request को Process नहीं करेगा।",
+        "போட்டைப் பயன்படுத்த முதலில் எங்கள் சேனலில் சேர வேண்டும்."
+        "பங்கேற்பு இல்லாமல் எந்த Request பாட் Process.",
         reply_markup=InlineKeyboardMarkup(formatted_buttons))
     return False
             
